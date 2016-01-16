@@ -1,0 +1,7 @@
+all: threadpids
+
+threadpids: pidmanager.c threadpid.c
+	gcc -pthread pidmanager.c threadpid.c -o threadpids
+
+clean:
+	rm threadpids

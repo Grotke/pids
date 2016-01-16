@@ -1,0 +1,7 @@
+all: pids
+
+pids: pidmanager.c pidmanagermain.c
+	gcc pidmanager.c pidmanagermain.c -o pids
+
+clean:
+	rm pids
