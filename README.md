@@ -9,7 +9,7 @@ It allocates and releases pids. threadpids.c uses threads to request a pid, slee
 
 The two pid projects were created to solve programming projects in the Operating Systems Concepts book.
 
-Go to the website at the top for more info about the development process.
+Go to http://www.josephcmontgomery.com/projects.html#pidmanager for more info about the development process.
 
 ## Building Instructions
 ### pids:
